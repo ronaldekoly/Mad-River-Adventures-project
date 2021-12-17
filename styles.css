@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Staatliches&family=Stalinist+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:ital,wght@1,200;1,300;1,400&family=Noto+Serif&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=PT+Sans&family=Quicksand:wght@300;400&family=Raleway:wght@300;900&family=Roboto:wght@100;900&family=Yusei+Magic&display=swap");
+
+body {
+  background-color: #071542;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #D3F0F6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yusei Magic", Helverica, sans-serif;
+  font-size: 1.65em;
+  line-height: 1.1em;
+  color: #FEF9F9;
+  background-color: #143858;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  font-family: "Montserrat", Helverica, serif;
+  font-size: 1.25em;
+  line-height: 1.35em;
+  padding: 10px;
+  margin-top: 0;
+  color: #143858;
+}
+
+nav {
+  background-color: #014F86;
+  padding: 1em;
+}
+
+nav a {
+  line-height: 1.75em;
+  color: white;
+  text-decoration: none;
+  padding: 0.25em 0.25em;
+}
+
+nav li {
+  font-family: "Staatliches", Helverica, sans-serif;
+  font-size: 1.15em;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+}
+
+nav a:hover {
+  color: #143858;
+  background-color: #D3F0F6;
+  box-shadow: 2px 6px 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 200px auto;
+  align-items: center;
+  background-color: #071542;
+}
+
+footer {
+  background-color: #014F86;
+  display: grid;
+  grid-template-columns: 1fr max-content repeat(3, max-content);
+  align-items: center;
+  justify-content: center;
+  line-height: 4.55em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 200px;
+  position: relative;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.banner {
+  width: 100%;
+}
+
+.home-right-img {
+  width: 350px;
+  height: 250px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 4 / 6;
+  grid-row: 1 / 4;
+  margin: 5px 25px 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+.home-left-img {
+  width: 350px;
+  height: 250px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 1 / 3;
+  grid-row: 4 / 7;
+  margin: 5px 0 15px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia {
+  padding: 10px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#info {
+  color: white;
+  font-size: 0.5em;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.home-headline-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+  margin: 10px 25px 0 25px;
+}
+
+.home-paragraph-1 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  margin: 0 25px 0 25px;
+}
+
+.home-headline-2 {
+  grid-column: 3 / 6;
+  grid-row: 4 / 4;
+  margin: 0 25px 0 25px;
+}
+
+.home-paragraph-2 {
+  grid-column: 3 / 6;
+  grid-row: 5 / 6;
+  margin: 0 25px 0 25px;
+}
+
+.home-headline-3 {
+  grid-column: 1 / 6;
+  grid-row: 7 / 7;
+  margin: 0 25px 0 25px;
+}
+
+.home-paragraph-3 {
+  grid-column: 1 / 6;
+  grid-row: 8 / 8;
+  text-align: center;
+  margin: 0 25px 15px 25px;
+}
+
+.rivers-right-img {
+  width: 350px;
+  height: 550px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 4 / 6;
+  grid-row: 1 / 3;
+  margin: 155px 15px 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+.rivers-left-img {
+  width: 350px;
+  height: 500px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 1 / 3;
+  grid-row: 4 / 6;
+  margin: 155px 0 15px 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rates-right-img {
+  width: 350px;
+  height: 550px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 4 / 6;
+  grid-row: 1 / 3;
+  margin: 355px 15px 15px 0;
+  justify-content: center;
+  align-items: center;
+}
